@@ -3,12 +3,6 @@
 
 
 def fizzbuzz():
-    """Print the numbers from 1 to 100 separated by a space.
-
-    For multiples of three print Fizz and Buzz for five.
-    For numbers which are multiples of both three and five print FizzBuzz.
-    Prototype: def fizzbuzz()
-    """
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz ", end="")
