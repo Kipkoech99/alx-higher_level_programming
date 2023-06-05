@@ -2,7 +2,6 @@
 """A class Rectangle that defines a rectangle"""
 
 
-
 class Rectangle:
     """represents a rectangle"""
 
@@ -29,7 +28,7 @@ class Rectangle:
         """set width attribute"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
-        if value < 0:
+        if width < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
 
@@ -43,7 +42,7 @@ class Rectangle:
         """set height attribute"""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
-        if value < 0:
+        if height < 0:
             raise ValueError("width must be >= 0")
         self.__height = value
 
