@@ -2,6 +2,8 @@
 """
     A module that creates a square
 """
+
+
 Rectangle = __import__ ('9-rectangle').Rectangle
 
 class Square(Rectangle):
@@ -17,7 +19,6 @@ class Square(Rectangle):
         return (self.__size ** 2)
 
     def __str__(self):
-        """Returns print() and str() representation"""
         string = "[" + str(self.__class__.__name__) + "] "
         string += str(self.__size) + "/" + str(self.__size)
         return string
