@@ -8,4 +8,4 @@ class MyList(list):
     """A class that is a child to list"""
     def print_sorted(self):
         """Method to sort list"""
-        print(sorted(list))
+        print(sorted(self))
