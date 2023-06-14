@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""This module writes content to a file"""
 
 
 def write_file(filename="", text=""):

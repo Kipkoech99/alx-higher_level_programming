@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""This module appends to a file"""
 
 
 def append_write(filename="", text=""):
