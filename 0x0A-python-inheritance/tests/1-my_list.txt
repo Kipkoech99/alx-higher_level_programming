@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+
+import doctest
+
+from 1-my_list import MyList
+
+def test_my_list():
+    """Test the MyList class."""
+
+    # Create a new MyList object.
+    my_list = MyList()
+
+    # Append some items to the list.
+    my_list.append(1)
+    my_list.append(4)
+    my_list.append(2)
+    my_list.append(3)
+    my_list.append(5)
+
+    # Check the initial order of the list.
+    assert my_list == [1, 4, 2, 3, 5]
+
+    # Sort the list.
+    my_list.print_sorted()
+
+    # Check the sorted order of the list.
+    assert my_list == [1, 2, 3, 4, 5]
+
+doctest.testmod()
