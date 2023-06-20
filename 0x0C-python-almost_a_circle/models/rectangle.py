@@ -4,10 +4,13 @@ from base class.
 """
 from models.base import Base
 
+
 class Rectangle(Base):
     """A class that defines a Rectangle with its attributes"""
 
+
     def __init__(self, width, height, x=0, y=0, id=None):
+        """Initializes attributes of the object"""
         self.__width = width
         self.__height = height
         self.__x = x
@@ -16,6 +19,7 @@ class Rectangle(Base):
 
     @property
     def width(self):
+        """width getter"""
         return self.__width
 
     @width.setter
@@ -29,6 +33,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
+        """height getter"""
         return self.__height
 
     @height.setter
@@ -42,6 +47,7 @@ class Rectangle(Base):
 
     @property
     def x(self):
+        """x getter"""
         return self.__x
 
     @x.setter
@@ -55,6 +61,7 @@ class Rectangle(Base):
 
     @property
     def y(self):
+        """y getter"""
         return self.__y
 
     @y.setter

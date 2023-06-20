@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""This module initializes a class with Id attribute and a private class attribute
-"""
+"""This module initializes a class with Id attribute and a private class attribute"""
+
 
 import csv
 import json
