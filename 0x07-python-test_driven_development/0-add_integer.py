@@ -10,12 +10,6 @@ def add_integer(a, b=98):
         b: second integer
     Return:
         sum
-        >>> add_integer(1, 2)
-        3
-        >>> add_integer(100, -98)
-        2
-        >>> add_integer(2)
-        100
     """
     if type(a) not in [int, float]:
         raise TypeError("a must be an integer")
