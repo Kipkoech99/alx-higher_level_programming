@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""script that displays a value of a variable from URL"""
 
 import urllib.request
 import sys
